@@ -51,3 +51,18 @@ class Cat(Mammal):
 
     def make_sound(self):
         print('Meow')
+
+    
+class Person(mammal):
+    def __init__(self):
+        Mammmal.__init__(self, 'Person')
+
+    def persons_name(self):
+
+    def persons_address(self):
+    
+    def persons_phonenumber(self):
+
+    def 
+
+

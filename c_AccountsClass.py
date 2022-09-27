@@ -7,14 +7,14 @@ class SavingsAccount:
     # account number, interest rate, and balance.
     
     def __init__(self, account_num, int_rate, bal):
-        self.__account_num = account_num
+        self.__account_num = account_num #THESE three are the attributes
         self.__interest_rate = int_rate
         self.__balance = bal
 
     # The following methods are mutators for the
     # data attributes.
 
-    def set_account_num(self, account_num):
+    def set_account_num(self, account_num): #setting methods for the attributes
         self.__account_num = account_num
 
     def set_interest_rate(self, int_rate):
@@ -26,7 +26,7 @@ class SavingsAccount:
     # The following methods are accessors for the
     # data attributes.
 
-    def get_account_num(self):
+    def get_account_num(self): #getting method for the attributes
         return self.__account_num
 
     def get_interest_rate(self):
